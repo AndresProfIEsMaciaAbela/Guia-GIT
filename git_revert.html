@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>command template</title>
     <link rel="stylesheet" href="css/comandos.css">
+    <link rel="stylesheet" href="css/git_revert.css">
     <script src="js/script_cmd.js" defer></script>
 </head>
 <body>
@@ -15,19 +16,23 @@
             <div class="m_desp">
                 <a class="menu_element" href="index.html">Página Principal</a>
                 <a class="menu_element" href="#encabezado">git revert</a>
-                <a class="menu_element" href="#s1">Sección 1</a>
-                <a class="menu_element" href="#s2">Sección 2</a>
-                <a class="menu_element" href="#s3">Bibliografía</a>
+                <a class="menu_element" href="#s1">¿Para que se usa?</a>
+                <a class="menu_element" href="#s2">Ejemplos</a>
+                <a class="menu_element" href="#s3">Comandos con uso similar</a>
+                <a class="menu_element" href="#s4">Bibliografía</a>
             </div>
         </nav>
     </header>
 
     <main>
         
-        <h3 class="seccion" id="s1">Descripción</h3>
-        <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, rem. Deserunt nisi dolore qui accusamus id, quod temporibus! Explicabo nobis quae minus doloremque omnis ab repudiandae quaerat earum, veniam ipsa similique sint voluptates ea. Vero molestias, culpa non qui dolorem aspernatur harum, fugiat rem maiores architecto unde consequuntur sint dolore quisquam maxime id! Saepe doloremque quas vero maiores. Molestias ab atque neque harum dignissimos provident ut veniam, voluptas qui nemo, reiciendis iusto accusantium rerum! Quisquam corrupti ipsum nihil cum provident ullam laborum molestias possimus odit sit necessitatibus, omnis hic, porro repellendus quis numquam iure deleniti voluptate amet aliquam? Quasi corrupti labore animi delectus quas. Vitae, omnis voluptatibus! Consequatur reprehenderit voluptatem at quidem, explicabo illo dolores rerum modi perferendis exercitationem, ea, minima fuga delectus dolor. Magnam non illo vero deserunt expedita consectetur ratione veniam amet sequi adipisci, exercitationem in labore beatae maiores unde porro ad? Placeat earum eligendi sapiente suscipit quos vero modi fugiat maiores numquam vel. Tempore voluptate maxime optio repellendus earum alias molestias reiciendis soluta rerum inventore natus labore commodi, sapiente molestiae, porro corrupti voluptates quam nesciunt exercitationem minima, ratione nam animi! Pariatur dolorem neque cupiditate id esse voluptatibus minus quos praesentium itaque qui eius, suscipit tempora saepe facere quaerat similique omnis possimus laboriosam architecto dicta nobis! Ipsam, excepturi aspernatur pariatur vitae minus officia, culpa sint consectetur expedita sapiente assumenda quaerat animi blanditiis doloremque vel nobis dolore voluptas at quasi dignissimos, dolorem alias ea. Nam iure, necessitatibus tempora delectus eos perspiciatis dicta doloremque enim ab pariatur minus repudiandae placeat! Voluptatibus ea, perspiciatis adipisci deleniti hic blanditiis sequi repudiandae, quis doloribus quidem fugiat ex qui nostrum nisi doloremque odio deserunt rem atque nobis nemo. Culpa laboriosam eum assumenda facilis autem possimus veniam, molestias non? Unde recusandae soluta sit exercitationem minus aperiam quia ipsa nisi error voluptatum ipsum, repellendus placeat magnam inventore. Totam, facilis sapiente, laudantium possimus excepturi delectus quis, blanditiis nobis assumenda eos ipsum voluptatibus iusto neque autem laborum numquam. Distinctio corporis laborum praesentium laudantium soluta doloribus dolor, nobis, quisquam explicabo commodi tempore quibusdam blanditiis voluptates. Nemo fugiat deserunt, dolor id ipsam dicta minima, distinctio aliquam, totam laborum eligendi! Dolore, nemo. Asperiores provident nam facere odio atque repellat minus quam quia similique quas aliquid quos culpa reiciendis placeat officiis, animi cupiditate libero. Alias quo velit voluptatem necessitatibus dolorum aspernatur, quod placeat culpa quos, voluptas accusantium veritatis cupiditate ipsum optio dignissimos quae laboriosam doloremque iusto error ipsam! Beatae saepe voluptatem necessitatibus ullam ratione placeat cumque quibusdam voluptate veniam quas unde nulla reiciendis nisi hic voluptas non pariatur maxime voluptatibus animi, eum quos? Accusantium esse quasi ratione labore ex omnis provident ipsam pariatur sed. Obcaecati ullam pariatur rem assumenda possimus, deleniti voluptate qui dolorum nostrum quos temporibus? Officiis reprehenderit, dignissimos magni culpa ullam molestias laboriosam, saepe ea earum quidem quae ab doloribus rem quis, aut accusamus voluptas! Modi, omnis deleniti corporis laborum eaque et mollitia, ratione, quaerat accusamus fugiat cumque molestias sequi. Similique eos quod dignissimos praesentium eaque recusandae amet doloremque, cum consequuntur optio, assumenda tempora totam rerum tenetur, nostrum ipsam architecto?</p>
+        <h3 class="seccion" id="s1">¿Para que se usa?</h3>
+        <p class="texto">Es un comando para recuperar cambios, pero al contrario que otros no elimina parte de la historia. En su lugar lo que hace es tomar un commit específico y crea un nuevo commit con el contenido del commit especificado. También se puede hacer con un único archivo.
+        
+            Esto es muy importante, ya que en entornos colaborativos, borrar parte del historial de versiones puede causar conflictos en los repositorios de los colaboradores, pudiendo en el peor de los casos, llegar a perder trabajo realizado.            
+        </p>
     
-        <h3 class="seccion" id="s2">SECCIÓN 2</h3>
+        <h3 class="seccion" id="s2">Ejemplos</h3>
         <div class="text_img">
             <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, rem. Deserunt nisi dolore qui accusamus id, quod temporibus! Explicabo nobis quae minus doloremque omnis ab repudiandae quaerat earum, veniam ipsa similique sint voluptates ea. Vero molestias, culpa non qui dolorem aspernatur harum, fugiat rem maiores architecto unde consequuntur sint dolore quisquam maxime id! Saepe doloremque quas vero maiores. Molestias ab atque neque harum dignissimos provident ut veniam, voluptas qui nemo, reiciendis iusto accusantium rerum! Quisquam corrupti ipsum nihil cum provident ullam laborum molestias possimus odit sit necessitatibus, omnis hic, porro repellendus quis numquam iure deleniti voluptate amet aliquam? Quasi corrupti labore animi delectus quas. Vitae, omnis voluptatibus! Consequatur reprehenderit voluptatem at quidem, explicabo illo dolores rerum modi perferendis exercitationem, ea, minima fuga delectus dolor. Magnam non illo vero deserunt expedita consectetur ratione veniam amet sequi adipisci, exercitationem in labore beatae maiores unde porro ad? Placeat earum eligendi sapiente suscipit quos vero modi fugiat maiores numquam vel. Tempore voluptate maxime optio repellendus earum alias molestias reiciendis soluta rerum inventore natus labore commodi, sapiente molestiae, porro corrupti voluptates quam nesciunt exercitationem minima, ratione nam animi! Pariatur dolorem neque cupiditate id esse voluptatibus minus quos praesentium itaque qui eius, suscipit tempora saepe facere quaerat similique omnis possimus laboriosam architecto dicta nobis! Ipsam, excepturi aspernatur pariatur vitae minus officia, culpa sint consectetur expedita sapiente assumenda quaerat animi blanditiis doloremque vel nobis dolore voluptas at quasi dignissimos, dolorem alias ea. Nam iure, necessitatibus tempora delectus eos perspiciatis dicta doloremque enim ab pariatur minus repudiandae placeat! Voluptatibus ea, perspiciatis adipisci deleniti hic blanditiis sequi repudiandae, quis doloribus quidem fugiat ex qui nostrum nisi doloremque odio deserunt rem atque nobis nemo. Culpa laboriosam eum assumenda facilis autem possimus veniam, molestias non? Unde recusandae soluta sit exercitationem minus aperiam quia ipsa nisi error voluptatum ipsum, repellendus placeat magnam inventore. Totam, facilis sapiente, laudantium possimus excepturi delectus quis, blanditiis nobis assumenda eos ipsum voluptatibus iusto neque autem laborum numquam. Distinctio corporis laborum praesentium laudantium soluta doloribus dolor, nobis, quisquam explicabo commodi tempore quibusdam blanditiis voluptates. Nemo fugiat deserunt, dolor id ipsam dicta minima, distinctio aliquam, totam laborum eligendi! Dolore, nemo. Asperiores provident nam facere odio atque repellat minus quam quia similique quas aliquid quos culpa reiciendis placeat officiis, animi cupiditate libero. Alias quo velit voluptatem necessitatibus dolorum aspernatur, quod placeat culpa quos, voluptas accusantium veritatis cupiditate ipsum optio dignissimos quae laboriosam doloremque iusto error ipsam! Beatae saepe voluptatem necessitatibus ullam ratione placeat cumque quibusdam voluptate veniam quas unde nulla reiciendis nisi hic voluptas non pariatur maxime voluptatibus animi, eum quos? Accusantium esse quasi ratione labore ex omnis provident ipsam pariatur sed. Obcaecati ullam pariatur rem assumenda possimus, deleniti voluptate qui dolorum nostrum quos temporibus? Officiis reprehenderit, dignissimos magni culpa ullam molestias laboriosam, saepe ea earum quidem quae ab doloribus rem quis, aut accusamus voluptas! Modi, omnis deleniti corporis laborum eaque et mollitia, ratione, quaerat accusamus fugiat cumque molestias sequi. Similique eos quod dignissimos praesentium eaque recusandae amet doloremque, cum consequuntur optio, assumenda tempora totam rerum tenetur, nostrum ipsam architecto?</p>
             <div class="img_container">
@@ -38,11 +43,41 @@
             </div>
         </div>
 
-        <h3 class="seccion" id="s3">BIBLIOGRAFÍA</h3>
+        <h3 class="seccion" id="s3">Comandos con uso similar</h3>
+        <p class="texto">
+            <ul>
+                <li>git checkout</li>
+                <li>git reset</li>
+            </ul>
+            Principales diferencias
+            <div class="tabla">
+                <div class="fila">
+                    <div class="columna c_vacia"></div>
+                    <div class="columna">git reset</div>
+                    <div class="columna">git revert</div>
+                    <div class="columna">git checkout</div>
+                </div>
+                <div class="fila">
+                    <div class="columna">Deshace parte de la historia</div>
+                    <div class="columna"></div>
+                    <div class="columna"></div>
+                    <div class="columna"></div>
+                </div>
+                <div class="fila">
+                    <div class="columna"></div>
+                    <div class="columna"></div>
+                    <div class="columna"></div>
+                    <div class="columna"></div>
+                </div>
+            </div>
+        </p>
+
+        <h3 class="seccion" id="s4">BIBLIOGRAFÍA</h3>
 
             <ul class="texto biblio">
-                <li><a href="https://git-scm.com/docs/">https://git-scm.com/docs/</a></li>
-                <li><a href="https://git-scm.com/docs/">https://git-scm.com/docs/</a></li>
+                <li><a href="https://www.atlassian.com/git/tutorials/undoing-changes/git-revert">https://www.atlassian.com/git/tutorials/undoing-changes/git-revert</a></li>
+                <li><a href="https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting">https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting</a></li>
+                <li><a href="https://www.aunitz.net/diferencias-checkout-revert-reset/">https://www.aunitz.net/diferencias-checkout-revert-reset/</a></li>
             </ul>
 
     </main>

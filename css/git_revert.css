@@ -1,0 +1,23 @@
+.tabla{
+    display:flex;
+    flex-direction: column;
+    margin:0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    gap: 10px 10px;
+}
+
+.fila{
+    display:inline-flex;
+    flex-direction: row;
+    gap: 10px 10px;
+}
+
+.columna{
+    
+    flex:0 0 25%;
+    border:1px solid black;
+}
+.c_vacia{
+    border:0px;
+}
